@@ -1,0 +1,50 @@
+/* 
+ * Dictionary List Expander Styling
+ * Designed to work only with Dictionary Lists
+ */
+ 
+dl.expanderList {
+}
+dl.expanderList dt {
+	color: #003366;
+}
+
+dl.expanderList dd {
+	color: #444444;
+	float: none;
+}
+
+dl.expanderList dt.closed {
+	padding-left: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	/* Add Small Triangle Button (Pointed to the Right) */
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAATFJREFUeNpiSN5y+73Z0qsyQMzw//9/EGaC0gzqCy+DacY55158ZmBgYP3LwMAy9/pbOyD79Mkorf9A+g8DFLCcffWVo8xcioWLlek/Pyvz3kuvvv4zX3bNBCh3G6QQqIGB6ezbH7923vnw+8GHnwxcbIzsjvJ8bCJsDPu9xdleARWpgkxiBNr7hQWow1CAnYvx/0+WW/ef/n/2+vmP7+9es3AwMTx+PLVUBaToB8uf30yfXzz89P3qyT+fb54V+fX+1UOGh1fP//v7ZzfQ4TNZvr9/wfD91J7vb6+f4Ga4dfHdv28fzwK9tBVoy1kgPgd2uWhS4092KbVnTCys5xkZGOYBhQKBWAKIOUHOAQUBkwgzwz1xAd7zbk5ufWfOnc0BCq4H4hdA/P0/SAUQAAQYABNbnQGqgdlvAAAAAElFTkSuQmCC'); 
+	cursor: pointer;
+}
+
+dl.expanderList dt.opened {
+	padding-left: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	/* Add Small Triangle Button (Pointed downward) */
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASVJREFUeNpiTN5y+72lFC/L2VdfOc6+/fHr459//xkYGFi+v3/B8P3SMUYRZoZ7TJc//tIFCrKWmUuxJKkJsbIwMPxh+fOb6fupPT8/7Vj69uvRTfeYgAqe/AXq5GJl+m8oyc1iKMDO9fnFw09vr59g+/3q/kstGYkVTCejtBjmXn9rt//+p58vv/5iYPz/k+X71ZN/GG5dfPf/z+/zrR1Na0EmgfDpS6++/uNkZvp76/7T/59vnhX59+3jE6DjNhsZGn0DKfgHNO3/nhdfTfrPP3/77PXzH7/ev3rI8P//VqDccQaoKSDwB4hvmwuysX1/95qF4eHV80D+WSD+CFaksegKA0zh1pe/zDmYGB7/+/tnN5B/Doh/gCQY////z0AIAAQYAJiai112U6hiAAAAAElFTkSuQmCC');
+	cursor: pointer;
+}
+
+a.expanderShowAll, a.expanderHideAll {
+	font-size: 12px;
+	background-color: #EEEEEE;
+	color: #336699;
+	padding: 2px 5px;
+	border: 1px solid #336699;
+	margin: 0px 3px;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+}
+a:hover.expanderShowAll, a:hover.expanderHideAll {
+	background-color: #DDDDDD;
+	color: #4477AA;
+	border: 1px solid #4477AA;
+}
